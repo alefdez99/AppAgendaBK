@@ -1,0 +1,44 @@
+INSERT INTO PERSONA (NOMBRE,APELLIDOS,EMAIL,PROVINCIA) VALUES ('Isabel',
+ 'Jiménez','ijimenez@gmail.com',9);
+INSERT INTO PERSONA (NOMBRE,APELLIDOS,EMAIL,PROVINCIA) VALUES ('Luisa',
+ 'López','llopez@gmail.com',4);
+INSERT INTO PERSONA (NOMBRE,APELLIDOS,EMAIL,PROVINCIA) VALUES ('Eva',
+'García','egarcia@gmail.com',4);
+INSERT INTO PERSONA (NOMBRE,APELLIDOS,EMAIL,PROVINCIA) VALUES ('Alicia',
+'Pérez','aperez@gmail.com',4);
+INSERT INTO PERSONA (NOMBRE,APELLIDOS,EMAIL,PROVINCIA) VALUES ('Lola',
+'Bermúdez','lbermudez@gmail.com',4);
+
+
+JSON
+---------------------
+{
+	"nombre":"Isabel",
+    "apellidos":"Jiménez",
+    "email":"ijimenez@gmail.com",
+    "provincia":{"id":"9"}
+}
+{
+	"nombre":"Luisa",
+    "apellidos":"López",
+    "email":"llopez@gmail.com",
+    "provincia":{"id":"4"}
+}
+{
+	"nombre":"Eva",
+    "apellidos":"García",
+    "email":"egarcia@gmail.com",
+    "provincia":{"id":"4"}
+}
+{
+	"nombre":"Alicia",
+    "apellidos":"Pérez",
+    "email":"aperez@gmail.com",
+    "provincia":{"id":"4"}
+}
+{
+	"nombre":"Lola",
+    "apellidos":"Bermúdez",
+    "email":"lbermudez@gmail.com",
+    "provincia":{"id":"4"}
+}
